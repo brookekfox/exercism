@@ -83,15 +83,15 @@ describe('Clock', function () {
 
     describe('Adding and subtracting minutes', function () {
 
-      it('add minutes', function () {
+      xit('add minutes', function () {
         expect(clock.at(10, 0).plus(3).toString()).toEqual('10:03');
       });
 
-      it('add no minutes', function () {
+      xit('add no minutes', function () {
         expect(clock.at(6, 41).plus(0).toString()).toEqual('06:41');
       });
 
-      it('add to next hour', function () {
+      xit('add to next hour', function () {
         expect(clock.at(0, 45).plus(40).toString()).toEqual('01:25');
       });
 
@@ -151,7 +151,7 @@ describe('Clock', function () {
 
     describe('Construct two separate clocks, set times, test if they are equal', function () {
 
-      it('clocks with same time', function () {
+      xit('clocks with same time', function () {
         expect(clock.at(15, 37).equals(clock.at(15, 37))).toBeTruthy();
       });
 

@@ -9,8 +9,6 @@ Grains.prototype.square = function(pos) {
     grains = this.square(pos - 1) * 2;
   }
   grains = grains.toString();
-  console.log(grains);
-  console.log(BigInt(grains));
   return grains;
 }
 

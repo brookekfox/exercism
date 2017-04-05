@@ -6,6 +6,7 @@ describe('CircularBuffer', function() {
 
   it('reading an empty buffer throws a BufferEmptyException', function() {
     var buffer = circularBuffer(1);
+    console.log("buffer", buffer);
     expect(buffer.read).toThrow(bufferEmptyException());
   });
 

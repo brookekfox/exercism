@@ -46,7 +46,7 @@ For example, if it's told that the garden looks like so:
 
 ```plain
 [window][window][window]
-VRCGVVRVCGGCCGVRGCVCGCGV
+VR CG VV RV CG GC CG VR GC VC GC GV
 VRCCCGCRRGVCGCRVVCVGCGCV
 ```
 
